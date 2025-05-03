@@ -31,7 +31,7 @@ The structure includes:
 
 ### 💻 Desktop View
 
-![Desktop Screenshot](images/desktop-screenshot.png)
+![Desktop Screenshot](app1/images/desktop-screenshot.png)
 
 ### 📱 Mobile View
 
