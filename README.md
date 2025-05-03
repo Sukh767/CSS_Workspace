@@ -29,8 +29,6 @@ The structure includes:
 
 ## 🖼️ Screenshots
 
-> Place the images inside the `images/` folder and reference them like below.
-
 ### 💻 Desktop View
 
 ![Desktop Screenshot](images/desktop-screenshot.png)
