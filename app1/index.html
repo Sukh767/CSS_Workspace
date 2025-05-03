@@ -11,12 +11,37 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
+    <!-- Font Awesome CDN (v4.7 or v5+) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
+    <!-- Navbar section -->
+     <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <!-- Logo -->
+      <div class="navbar__logo">
+        <img src="images/logo.png" alt="Brand Logo" />
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="navbar__menu">
+        <li class="navbar__menu-item"><a href="#">Home</a></li>
+        <li class="navbar__menu-item"><a href="#">About Us</a></li>
+        <li class="navbar__menu-item"><a href="#">Contact Us</a></li>
+        <li class="navbar__menu-item"><a href="#">Blog</a></li>
+      </ul>
+
+      <!-- Auth Buttons -->
+      <div class="navbar__auth">
+        <a href="#" class="auth__link">Register</a>
+        <span>/</span>
+        <a href="#" class="auth__link">Login</a>
+      </div>
+    </div>
+  </nav>
+
     <!-- Hero section -->
     <header class="hero">
       <h1 class="hero__title">EMPOWER YOUNG MINDS</h1>
@@ -26,7 +51,7 @@
       </p>
     </header>
 
-    <!--  Feattures secction-->
+    <!--  Feattures section-->
     <section class="feature">
       <div class="feature__container">
         <div class="feature__item">
@@ -57,6 +82,9 @@
             learning paths.
           </p>
         </div>
+      </div>
+      <div class="feature__image-container">
+         <img src="images/features.jpg" alt="feature image" class="feature__image">
       </div>
     </section>
 
@@ -105,13 +133,43 @@
     <!-- Flex - Program section -->
     <section class="programs__section">
       <h2 class="program__title">
-        Explore Our State of the Art Facilities and Enchriching Learning
-        Experience
+        Explore Our State-of-the-Art Facilities and Enriching Learning
+        Enviroment
       </h2>
       <div class="programs__cards">
-        <div class="programs__card"></div>
-        <div class="programs__card"></div>
-        <div class="programs__card"></div>
+        <div class="programs__card">
+          <img src="images/program1.jpg" alt="Programs Activities" class="programs__cards-img">
+          <h3>
+            Engaging Extracurricular Activities for Holistic Student Developement
+          </h3>
+
+          <p class="programs__card-description">
+            Our school offers modern facilities to enhance learning experience.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img src="images/program2.jpg" alt="Programs Activities" class="programs__cards-img">
+          <h3>
+            Diverse acdemic programs tailored to student interests and goals
+          </h3>
+
+          <p class="programs__card-description">
+            We provide a wide range of academic programs to cater to every student.
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
+        <div class="programs__card">
+          <img src="images/program3.jpg" alt="Programs Activities" class="programs__cards-img">
+          <h3>
+           Dedicated staff commited to student success and growth 
+          </h3>
+
+          <p class="programs__card-description">
+            our experienced educators are passionate about nurturing each students potentials
+          </p>
+          <button class="programs__button">Learn More</button>
+        </div>
       </div>
     </section>
 
@@ -119,7 +177,9 @@
     <section class="form__element__section">
       <!-- Left sub section-->
       <div class="element__left">
-        <div class="element__placeholder"></div>
+        <div class="element__placeholder">
+          <img src="images/formimage.jpg" alt="form image" class="element__image">
+        </div>
       </div>
 <!-- Right sub section-->
       <div class="element__right">
@@ -163,5 +223,47 @@
         </form>
       </div>
     </section>
+
+    <!-- Footer section-->
+    <footer class="footer">
+      <div class="footer__container">
+        <!-- Logo and Description -->
+        <div class="footer__logo">
+          <img src="images/logo.png" alt="Brand Logo" />
+          <p>Empowering the next generation of education solutions.</p>
+          <button class="learn__button">Learn More</button>
+        </div>
+    
+        <!-- Navigation Links -->
+        <div class="footer__links">
+          <div class="footer__links-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#" class="link__item">About Us</a></li>
+              <li><a href="#" class="link__item">Feature</a></li>
+              <li><a href="#" class="link__item">Programs</a></li>
+              <li><a href="#" class="link__item">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer__links-column">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#" class="link__item">Help Center</a></li>
+              <li><a href="#" class="link__item">Terms of Use</a></li>
+              <li><a href="#" class="link__item">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Social Media Icons -->
+        <div class="footer__socials">
+          <h4>Quick Links</h4>
+          <a href="#" class="socials__link"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="socials__link"><i class="fa fa-facebook-square"></i></a>
+          <a href="#" class="socials__link"><i class="fa fa-instagram"></i></a>
+          <a href="#" class="socials__link"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>    
   </body>
 </html>
