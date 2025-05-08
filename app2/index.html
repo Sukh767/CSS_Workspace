@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODAY News - Layout Examples</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -11,6 +17,10 @@
     <header class="header">
       <nav class="header-nav">
         <div class="header-logo">TODAY</div>
+        <div class="search__box-container">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="text" class="search-box" placeholder="search here">
+        </div>
         <div class="header-links">
           <a href="#">Home</a>
           <a href="#">News</a>
@@ -29,19 +39,20 @@
         <div class="featured-content">
           <h2>Moment Obama raps Eminem's Lose Yourself at Detroit rally</h2>
           <p>
-            Eminemm has introduced former US President Barack Obama at a
+            Eminem has introduced former US President Barack Obama at a
             presidential campaign rally in Detroit. "I have done a lot of
-            rallies, so I dont usually get nervous", Mr Obama said. "But I was
+            rallies, so I don't usually get nervous," Mr Obama said. "But I was
             feeling some kind of way following the last four years," he added.
             The former president also said he was "honoured" to be asked to
             perform at the event.
           </p>
           <div class="featured-footer">
-            <button href="#" class="featured-more">Read More</button>
+            <button class="featured-more">Read More</button>
             <span class="featured-time">2 min read</span>
           </div>
         </div>
       </section>
+      
 
       <!-- 3. Flex/Grid List - Latest Cards without text overlay -->
       <section class="latest">
